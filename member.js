@@ -1,4 +1,8 @@
 function skillMember() {
-    // This is a private function
-    console.log('This is a skill member');
+    var member = {
+        name: "John",
+        age: 25,
+        skills: ["C", "C++", "Java"],
+    };
+    return member;
 }
